@@ -1,0 +1,5 @@
+phnm = input().replace(' ', '')
+newnm1 = phnm.replace("(", '')
+newnm2 = newnm1.replace(")", '')
+newnm3 = newnm2.replace("-", '')
+print(newnm3)

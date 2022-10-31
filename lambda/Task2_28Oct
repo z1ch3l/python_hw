@@ -1,0 +1,6 @@
+grades = [{'name': 'Jennifer', 'final': 95},
+          {'name': 'David', 'final': 92},
+          {'name': 'Aaron', 'final': 98}]
+
+nosik_yojika = sorted(grades, key=lambda x: x['name'])
+print(nosik_yojika)

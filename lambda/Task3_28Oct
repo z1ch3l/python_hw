@@ -1,0 +1,12 @@
+name = input('Введите имя: ')
+kriteriy1 = ['а','я','г','м']
+kriteriy2 = ['о','ь','л','н']
+while name! = 'off':
+    a = {'gen': lambda x: print(f'{x} Гений'),'sver':lambda x: print(f'{x} Сверхразум'),'prost':lambda x: print(f'Просто {x}')}
+    if name[-1] in kriteryi1:
+        a['gen'](name)
+    elif name[-1] in kriteriy2:
+        a['sver'](name)
+    else:
+        a['prost'](name)
+    name = input('Введите имя: ')

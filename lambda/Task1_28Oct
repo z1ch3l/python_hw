@@ -1,0 +1,5 @@
+num = input()
+while num != 'off':
+    a = lambda num: print(f'{num} гений')
+    a(num)
+    num = input()
